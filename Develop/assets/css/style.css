@@ -4,52 +4,57 @@
     margin: 0;
 }
 
+/* Background color for full page  */
 body {
     background-color: #d9dcd6;
 }
 
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+/* Color, spacing and font for Header Section */
+    .header {
+        padding: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #2a607c;
+        color: #ffffff;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
+/*Font size and placement of header  */
+        .header h1 {
+        display: inline-block;
+        font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+ /* Change in color for SEO part of Header */
+        .header h1 .seo {
+        color: #d9dcd6;
 }
 
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+ /* Section titles styling */
+            .header div {
+                 padding-top: 15px;
+                 margin-right: 20px;
+                float: right;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
+/* Section titles list styling not in typical list format */
+            .header div ul {
+                  list-style-type: none;
 }
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
+/* Section titles layout */
+            .header div ul li {
+                 display: inline-block;
+                margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
+/* Section titles color */
+                a {
+                    color: #ffffff;
+                    text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Large picture at top of site showing people sitting around table */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +64,86 @@ p {
     background-position: center;
 }
 
+/* Sections paragraph font */
+p {
+    font-size: 16px;
+}
+
+/* search-engine-optimization */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+    .search-engine-optimization img {
+        max-height: 200px;
+}
+
+        .search-engine-optimization h2 {
+            margin-bottom: 20px;
+            font-size: 36px;
+}
+
+
+/*online-reputation-management  */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+    .online-reputation-management img {
+        max-height: 200px;
+}
+        .online-reputation-management h2 {
+            margin-bottom: 20px;
+            font-size: 36px;
+}
+
+/* social-media-marketing  */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+    .social-media-marketing img {
+        max-height: 200px;
+}
+        .social-media-marketing h2 {
+            margin-bottom: 20px;
+            font-size: 36px;
+}
+
+/* search-engine-optimization and social-media-marketing paragraph format */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* online-reputation-management paragraph format */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* online-reputation-management paragraph format */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+
+/* Covers the aside  spacing, color and font */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,72 +155,6 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +164,52 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
+
+/* Covers the aside Lead Generation */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+
+}
+    .benefit-lead h3 {
+         margin-bottom: 10px;
+        text-align: center;
+}
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
+/* Covers the aside Brand Awareness  */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+    .benefit-brand h3 {
+        margin-bottom: 10px;
+         text-align: center;
+}
+    .benefit-brand img {
+        display: block;
+        margin: 10px auto;
+        max-width: 150px;
 }
 
-.social-media-marketing img {
-    max-height: 200px;
+/* Covers the aside Cost Management */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    .benefit-cost h3 {
+          margin-bottom: 10px;
+         text-align: center;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    .benefit-cost img {
+        display: block;
+         margin: 10px auto;
+         max-width: 150px;
 }
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .footer {
     padding: 30px;
     clear: both;
