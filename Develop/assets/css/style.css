@@ -10,7 +10,7 @@ body {
 }
 
 /* Color, spacing and font for Header Section */
-    .header {
+    header {
         padding: 20px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         background-color: #2a607c;
@@ -18,18 +18,18 @@ body {
 }
 
 /*Font size and placement of header  */
-        .header h1 {
+        header h1 {
         display: inline-block;
         font-size: 48px;
 }
 
  /* Change in color for SEO part of Header */
-        .header h1 .seo {
+     header h1 .seo {
         color: #d9dcd6;
 }
 
  /* Section titles styling */
-            .header div {
+     header div {
                  padding-top: 15px;
                  margin-right: 20px;
                 float: right;
@@ -38,12 +38,12 @@ body {
 }
 
 /* Section titles list styling not in typical list format */
-            .header div ul {
+    header div ul {
                   list-style-type: none;
 }
 
 /* Section titles layout */
-            .header div ul li {
+     header div ul li {
                  display: inline-block;
                 margin-left: 25px;
 }
@@ -87,7 +87,6 @@ p {
             margin-bottom: 20px;
             font-size: 36px;
 }
-
 
 /*online-reputation-management  */
 .online-reputation-management {
@@ -136,15 +135,14 @@ p {
     margin-left: 25px;
 }
 /* online-reputation-management paragraph format */
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-
 /* Covers the aside  spacing, color and font */
-.benefits {
+ aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -163,7 +161,6 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
 
 /* Covers the aside Lead Generation */
 .benefit-lead {
@@ -210,7 +207,9 @@ p {
          margin: 10px auto;
          max-width: 150px;
 }
-.footer {
+
+/* Footer */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
